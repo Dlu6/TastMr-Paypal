@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../logo.svg';
+// import logo from '../logo.svg';
 import styled from 'styled-components';
 import {ButtonContainer} from './Button';
+import Title from './Title';
 
 export default class Navbar extends Component {
   render() {
@@ -13,12 +14,13 @@ export default class Navbar extends Component {
         Creative Commons (Attribution 3.0 Unported);
         https://www.iconfinder.com/Makoto_msk */}
         <Link to='/'>
-          <img src={logo} alt="store" className="navbar-brand"/>
+          {/* <img src={logo} alt="store" className="navbar-brand"/> */}
+          <img alt="Logo" src="//africa-public.food.jumia.com/assets/production/ug/images/site-overrides/site_header_logo_path-20180916-174133.png"/>
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
             <Link to="/" className="nav-link">
-              products
+              <Title name="Menu"/>
             </Link>
           </li>
         </ul>
@@ -36,7 +38,7 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-background:var(--mainBlue);
+background:var(--mainRed);
 .nav-link {
   color:nav(--mainWhite)!important;
   font-size: 1.3rem;

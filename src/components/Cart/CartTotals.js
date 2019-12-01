@@ -21,11 +21,11 @@ export default function CartTotals({ value, history }) {
             </Link>
             <h5>
               <span className="text-title">Subtotal :</span>
-              <strong>Ugshs {cartSubTotal} </strong>
+              <strong> {cartSubTotal} </strong>
             </h5>
             <h5>
-              <span className="text-title">Tax :</span>
-              <strong>Ugshs {cartTax} </strong>
+              <span className="text-title">Shipping Fees :</span>
+              <strong> {cartTax} </strong>
             </h5>
             <h5>
               <span className="text-title">Total :</span>

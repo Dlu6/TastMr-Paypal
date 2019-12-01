@@ -88,7 +88,7 @@ const ProductWrapper = styled.div`
   overflow:hidden;
 }
 .card-img-top{
-  transition: all 1s linear;
+  transition: all 0.5s linear;
 }
 .img-container:hover .card-img-top {
   transform:scale(1.2);
