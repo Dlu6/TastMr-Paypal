@@ -6,6 +6,9 @@
   --mainYellow:#ffa400;
   --mainRed:#FF183F;
   --mainRed:#FF6F00;
+  --mainGrey: rgba(109, 109, 109);
+  --mainLightGrey: rgba(172, 172, 172);
+  
 }
 
 body {
