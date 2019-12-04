@@ -9,6 +9,9 @@ import Cart from "./components/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
 import Footer from "./components/Footer";
+import AboutUs from "./components/Pages/AboutUs";
+import Chef from "./components/Pages/Chef";
+import Careers from "./components/Pages/Careers";
 
 class App extends Component {
   render() {
@@ -19,6 +22,9 @@ class App extends Component {
           <Route exact path="/" component={ProductList} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
+          <Route path="/aboutus" component={AboutUs}/>
+          <Route path="/chef" component={Chef}/>
+          <Route path="/careers" component={Careers}/>
           <Route component={Default} />
         </Switch>
         <Modal/>

@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -20,13 +21,13 @@ function Footer() {
               <h4>SERVICES</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="/">Menu</a>
+                  <Link to="/">Menu</Link>
                 </li>
                 <li>
-                  <a href="/">Locations</a>
+                  <Link to="/">Locations</Link>
                 </li>
                 <li>
-                  <a href="/">Riders</a>
+                  <Link to="/">Riders</Link>
                 </li>
               </ul>
             </div>
@@ -35,16 +36,16 @@ function Footer() {
               <h4>CONNECT WITH US</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="/">Facebook</a>
+                  <Link to="/">Facebook</Link>
                 </li>
                 <li>
-                  <a href="/">Twitter</a>
+                  <Link to="/">Twitter</Link>
                 </li>
                 <li>
-                  <a href="/">Youtube</a>
+                  <Link to="/">Youtube</Link>
                 </li>
                 <li>
-                  <a href="/">Google+</a>
+                  <Link to="/">Google+</Link>
                 </li>
               </ul>
             </div>
@@ -53,20 +54,21 @@ function Footer() {
               <h4>ABOUT US</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="/">Careers</a>
+                  <Link to="/careers">Careers</Link>
                 </li>
                 <li>
-                  <a href="/">Health</a>
+                  <Link to="/">Health</Link>
                 </li>
                 <li>
-                  <a href="/">Chef's corner</a>
+                  <Link to="/chef">Chef's corner</Link>
                 </li>
                 <li>
-                  <a href="/">Bookings</a>
+                  <Link to="/">Bookings</Link>
                 </li>
               </ul>
             </div>
           </div>
+          {/* <a href="/">Chef's corner</a> */}
           {/* Footer Copyright */}
           <div className="footer-bottom">
             <hr />
