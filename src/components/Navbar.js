@@ -9,13 +9,9 @@ export default class Navbar extends Component {
   render() {
     return (
       <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
-        {/*
-        https://www.iconfinder.com/icons/1243689/call_phone_icon
-        Creative Commons (Attribution 3.0 Unported);
-        https://www.iconfinder.com/Makoto_msk */}
-        <Link to='/'>
+        <Link className="navbar-brand ml-5" to='/'>
           {/* <img src={logo} alt="store" className="navbar-brand"/> */}
-          <img alt="Logo" src="//africa-public.food.jumia.com/assets/production/ug/images/site-overrides/site_header_logo_path-20180916-174133.png"/>
+          <img alt="Logo" src="//africa-public.food.jumia.com/assets/production/ug/images/site-overrides/site_header_logo_path-20180916-174133.png" style={{ width:'100px' }} />
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">

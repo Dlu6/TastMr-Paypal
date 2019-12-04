@@ -12,8 +12,8 @@ function Footer() {
             <div className="col-md-3 col-sm-6">
               <h4>CONTACT US</h4>
               <ul className="list-unstyled">
-                <li>About Us</li>
-                <li>Other Services</li>
+                <li>Plot 47</li>
+                <li>Ntinda Complex - 32BA</li>
               </ul>
             </div>
             {/* Column 2 */}
@@ -57,13 +57,13 @@ function Footer() {
                   <Link to="/careers">Careers</Link>
                 </li>
                 <li>
-                  <Link to="/">Health</Link>
+                  <Link to="/health">Health</Link>
                 </li>
                 <li>
                   <Link to="/chef">Chef's corner</Link>
                 </li>
                 <li>
-                  <Link to="/">Bookings</Link>
+                  <Link to="/booking">Bookings</Link>
                 </li>
               </ul>
             </div>

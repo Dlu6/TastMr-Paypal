@@ -12,6 +12,8 @@ import Footer from "./components/Footer";
 import AboutUs from "./components/Pages/AboutUs";
 import Chef from "./components/Pages/Chef";
 import Careers from "./components/Pages/Careers";
+import Bookings from "./components/Pages/Bookings";
+import Health from "./components/Pages/Health";
 
 class App extends Component {
   render() {
@@ -23,7 +25,9 @@ class App extends Component {
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
           <Route path="/aboutus" component={AboutUs}/>
+          <Route path="/booking" component={Bookings}/>
           <Route path="/chef" component={Chef}/>
+          <Route path="/health" component={Health}/>
           <Route path="/careers" component={Careers}/>
           <Route component={Default} />
         </Switch>

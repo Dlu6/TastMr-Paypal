@@ -6,7 +6,7 @@ class AboutUs extends Component {
   render() {
     return (
       <div>
-          AboutUs
+          AboutUs...coming soon...
       </div>
     );
   }
